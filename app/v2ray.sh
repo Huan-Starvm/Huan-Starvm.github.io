@@ -12,62 +12,6 @@ _yellow() { echo -e ${yellow}$*${none}; }
 _magenta() { echo -e ${magenta}$*${none}; }
 _cyan() { echo -e ${cyan}$*${none}; }
 
-# Root
-[[ $(id -u) != 0 ]] && echo -e "\n 哎呀……请使用 ${red}root ${none}用户运行 ${yellow}~(^_^) ${none}\n" && exit 1
-
-cmd="apt-get"
-
-sys_bit=$(uname -m)
-
-case $sys_bit in
-# i[36]86)
-# 	v2ray_bit="32"
-# 	caddy_arch="386"
-# 	;;
-'amd64' | x86_64)
-	v2ray_bit="64"
-	caddy_arch="amd64"
-	;;
-# *armv6*)
-# 	v2ray_bit="arm32-v6"
-# 	caddy_arch="arm6"
-# 	;;
-# *armv7*)
-# 	v2ray_bit="arm32-v7a"
-# 	caddy_arch="arm7"
-# 	;;
-*aarch64* | *armv8*)
-	v2ray_bit="arm64-v8a"
-	caddy_arch="arm64"
-	;;
-*)
-	echo -e " 
-	哈哈……这个 ${red}辣鸡脚本${none} 不支持你的系统。 ${yellow}(-_-) ${none}
-
-	备注: 仅支持 Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
-	" && exit 1
-	;;
-esac
-
-# 笨笨的检测方法
-if [[ $(command -v apt-get) || $(command -v yum) ]] && [[ $(command -v systemctl) ]]; then
-
-	if [[ $(command -v yum) ]]; then
-
-		cmd="yum"
-
-	fi
-
-else
-
-	echo -e " 
-	哈哈……这个 ${red}辣鸡脚本${none} 不支持你的系统。 ${yellow}(-_-) ${none}
-
-	备注: 仅支持 Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
-	" && exit 1
-
-fi
-
 uuid=$(cat /proc/sys/kernel/random/uuid)
 old_id="e55c8d17-2cf3-b21a-bcf1-eeacb011ed79"
 v2ray_server_config="/etc/v2ray/config.json"
