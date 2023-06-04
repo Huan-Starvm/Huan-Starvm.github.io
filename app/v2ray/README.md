@@ -1,3 +1,4 @@
-wget -N https://raw.githubusercontent.com/fscarmen/warp/main/menu.sh && bash menu.sh [option] [lisence]
+bash <(wget -qO- -o- https://git.io/v2ray.sh)
 
-ipv4/6 warp脚本
+V2ray一键安装脚本
+前置：wget,curl
