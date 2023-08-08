@@ -4,20 +4,6 @@ export PATH
 LANG=en_US.UTF-8
 
 clear
-echo -e " "
-echo -e "\033[31m若在使用中发现问题，请及时联系 TG群组：@rsakuras 进行反馈！ \033[0m"
-echo -e " "
-echo -e "\033[34m赞助商ADS: \033[0m"
-echo -e "\033[33m美国洛杉矶CN2GIA服务器-特价促销中-KURUN CLOUD机房直销 \033[0m"
-echo -e "\033[33m官网:https://www.kurun.com \033[0m"
-echo -e "\033[33m ... ... \033[0m"
-echo -e "\033[33m轻云互联 - 美国直连双程CN2GIA精品网 - 香港CN2GIA线路三网 \033[0m"
-echo -e "\033[33m官网 : https://www.qingyunl.com \033[0m"
-echo -e " "
-echo -e "\033[31m感谢你认可本ADS，本脚本纯爱发电，托管服务器也是各位ADS无偿为大家提供，作者提供精力为大家更新 \033[0m"
-echo -e "\033[31m注意：本脚本一直是免费的，若是发现收费请立刻重装系统（属于盗取脚本，可能被第三方盗取者插入后门），作者也不支持打赏！ \033[0m"
-echo -e " "
-sleep 5s
 
 CURL_CHECK=$(which curl)
 if [ "$?" == "0" ];then
@@ -993,23 +979,7 @@ if [ "${HTTP_S}" == "https" ];then
 fi
 echo -e "=================================================================="
 
-endTime=`date +%s`
-((outTime=($endTime-$startTime)/60))
-echo -e "Time consumed:\033[32m $outTime \033[0mMinute!"
-echo -e " "
-echo -e "\033[31m已经安装完毕，欢迎使用！ \033[0m"  
-echo -e " "
-echo -e "\033[33m赞助商ADS: \033[0m"
-echo -e "\033[33m美国洛杉矶CN2GIA服务器-特价促销中-KURUN CLOUD机房直销 \033[0m"
-echo -e "\033[33m官网:https://www.kurun.com \033[0m"
-echo -e "\033[33m ... ... \033[0m"
-echo -e "\033[33m轻云互联 - 美国直连双程CN2GIA精品网 - 香港CN2GIA线路三网 \033[0m"
-echo -e "\033[33m官网 : https://www.qingyunl.com/aff.php?aff=557 \033[0m"
-echo -e " "
-echo -e "\033[31m感谢你认可本ADS，本脚本纯爱发电，托管服务器也是各位ADS无偿为大家提供，作者提供精力为大家更新 \033[0m"
-echo -e "\033[31m注意：本脚本一直是免费的，若是发现收费请立刻重装系统（属于盗取脚本，可能被第三方盗取者插入后门），作者也不支持打赏！ \033[0m"
-echo -e " "
-rm -rf install.sh
+rm -rf install_6.0.sh
 
 
 
