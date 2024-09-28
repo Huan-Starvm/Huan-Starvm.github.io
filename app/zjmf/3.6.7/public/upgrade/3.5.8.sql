@@ -1,0 +1,1 @@
+INSERT INTO `shd_configuration` (`setting`,`value`) VALUES ('allow_new_login_template','default');
