@@ -1,1 +1,0 @@
-ALTER TABLE `shd_servers` ADD COLUMN `type` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '服务器模块类型';

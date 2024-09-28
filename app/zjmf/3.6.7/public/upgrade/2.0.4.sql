@@ -1,1 +1,0 @@
-UPDATE `shd_product_groups` SET `order_frm_tpl` = '0' WHERE `order_frm_tpl` in ('','McSpace');

@@ -1,1 +1,0 @@
-ALTER TABLE `shd_upper_reaches_res` ADD COLUMN `mark` VARCHAR(5000) NOT NULL DEFAULT '' COMMENT '备注';

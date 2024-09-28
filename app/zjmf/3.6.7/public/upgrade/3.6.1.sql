@@ -1,1 +1,0 @@
-DELETE FROM `shd_auth_rule` WHERE `id`=1903;

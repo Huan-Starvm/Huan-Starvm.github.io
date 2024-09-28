@@ -1,1 +1,0 @@
-UPDATE `shd_user` SET `language` = 'CN';

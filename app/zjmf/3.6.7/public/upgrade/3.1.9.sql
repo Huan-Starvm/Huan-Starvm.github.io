@@ -1,1 +1,0 @@
-ALTER TABLE `shd_zjmf_finance_api` ADD COLUMN `is_using` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否正在使用的资源池账号';

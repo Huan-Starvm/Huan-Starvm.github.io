@@ -1,1 +1,0 @@
-ALTER TABLE `shd_clients` ADD COLUMN `send_close` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否关闭发送邮件短信:0否默认，1是';
