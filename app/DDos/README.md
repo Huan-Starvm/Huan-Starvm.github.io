@@ -8,7 +8,7 @@ sudo apt-get -y install wget python2
 ```
 ## 下载脚本
 ```dash
-wget https://huan-Starvm.github.io/app/DDos/ddos-attack.py 
+wget https://huan-starvm.github.io/app/DDos/ddos-attack.py 
 ```
 ## 运行脚本
 ```dash
