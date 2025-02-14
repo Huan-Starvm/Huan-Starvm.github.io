@@ -1,16 +1,16 @@
-## Update
+## 更新系统源以保证最新
 ```dash
 sudo apt-get update
 ```
-## Install
+## 安装必要环境
 ```dash
 sudo apt-get -y install wget python2
 ```
-## Download
+## 下载脚本
 ```dash
 wget https://huan-Starvm.github.io/app/DDos/ddos-attack.py 
 ```
-## Run
+## 运行脚本
 ```dash
 python2 ddos-attack.py
 ```
