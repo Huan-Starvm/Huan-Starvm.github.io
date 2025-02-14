@@ -1,3 +1,9 @@
+## 更新系统源
+**CentOS:**
+```bash
+sudo yum update
+```
+
 bash <(wget -qO- -o- https://git.io/v2ray.sh)
 
 V2ray一键安装脚本
