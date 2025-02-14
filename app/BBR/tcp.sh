@@ -3,11 +3,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
 #=================================================
-#	System Required: CentOS 6/7,Debian 8/9,Ubuntu 16+
-#	Description: BBR+BBR魔改版+BBRplus+Lotserver
-#	Version: 1.4.0
-#	Author: 千影,cx9208
-#	Blog: https://www.939.me/
+#   支持的系统: CentOS 6.x/7.x/8.x/Stream 8/9,Debian 8/9/10/11/12,Ubuntu 16/20/22/24
 #   推荐使用5.5以上内核直接开启的bbr速度最佳
 #=================================================
 
