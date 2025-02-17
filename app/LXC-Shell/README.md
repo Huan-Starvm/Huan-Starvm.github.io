@@ -8,5 +8,5 @@
 
 # Debian\Ubuntu
 ```bash
-https://huan-starvm.github.io/app/LXC-Shell/Debian-Ubuntu.sh
+wget -qO- https://huan-starvm.github.io/app/LXC-Shell/Debian-Ubuntu.sh | bash
 ```
