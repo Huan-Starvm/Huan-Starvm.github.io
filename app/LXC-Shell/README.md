@@ -1,3 +1,7 @@
 # 实现了哪些功能
 
-**此目录下的脚本主要实现了一键给Proxmox VE LXC容器安装`wget`、`curl`、`sudo`、`vim`、`net-tools`、`bash`**
+**1.一键给Proxmox VE LXC容器安装`wget`、`curl`、`sudo`、`vim`、`net-tools`、`bash`**
+**2.执行update与upgrade指令方便后续的各种环境安装**
+**3.一键开启SSH功能，无需手动修改文件**
+
+# Debian\Ubuntu
