@@ -1,6 +1,7 @@
 # 三网回程测试脚本(国内外都可以用好像)
 
 ## 更新系统源以保证最新
+### Ubuntu/Debian
 ```dash
 sudo apt-get update
 ```
