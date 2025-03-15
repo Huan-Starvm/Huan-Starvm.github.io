@@ -22,5 +22,5 @@ yum install -y wget
 
 ## 使用脚本（Ubuntu/Debian/CentOS通用，其他系统未测试）
 ```bash
-wget https://huan-starvm.github.io/app/tcpreturn/mtr_trace.sh && bash mtr_trace.sh
+wget https://huan-starvm.github.io/app/mtr_trace/mtr_trace.sh && bash mtr_trace.sh
 ```
