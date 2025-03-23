@@ -1,6 +1,6 @@
 # 实现了哪些功能
 
-**1.一键给Proxmox VE LXC容器安装`curl`、`sudo`、`vim`、`net-tools`、`bash`**
+**1.一键给Proxmox VE LXC容器安装`curl`、`sudo`、`vim`、`net-tools`**
 
 **2.执行update与upgrade指令方便后续的各种环境安装**
 
