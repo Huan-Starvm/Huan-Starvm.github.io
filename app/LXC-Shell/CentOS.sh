@@ -10,7 +10,7 @@ echo "正在运行中，请勿断开SSH..."
 yum update -y
 
 # 安装必需的软件包
-yum install -y vim sudo net-tools wget curl bash
+yum install -y vim sudo net-tools curl
 
 # 修改 SSH 配置以允许 root 登录
 sed -i 's/^#\?PermitRootLogin .*/PermitRootLogin yes/' /etc/ssh/sshd_config
