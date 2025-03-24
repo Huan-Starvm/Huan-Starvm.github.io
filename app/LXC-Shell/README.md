@@ -2,7 +2,7 @@
 
 **1.一键给Proxmox VE LXC容器安装`curl`、`sudo`、`vim`、`net-tools`**
 
-**2.执行update与upgrade指令方便后续的各种环境安装**
+**2.执行update指令方便后续的各种环境安装**
 
 **3.一键开启SSH功能，无需手动修改文件**
 
