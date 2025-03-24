@@ -7,7 +7,7 @@ echo "此脚本由 星空云(https://www.starvm.cn) 编写，免费开源，如�
 echo "正在运行中，请勿断开SSH..."
 
 # 更新包列表并升级所有软件包
-apt update && apt full-upgrade -y
+apt update
 
 # 安装必需的软件包
 apt install -y vim sudo net-tools curl
