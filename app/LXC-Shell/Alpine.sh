@@ -4,7 +4,7 @@
 apk update
 
 # 安装 OpenSSH 服务器
-apk add openssh wget curl bash sudo vim net-tools
+apk add openssh curl sudo vim net-tools
 
 # 启用 sshd 服务
 rc-update add sshd
