@@ -3,7 +3,7 @@
 # 更新软件包索引
 apk update
 
-# 安装 OpenSSH 服务器
+# 安装 OpenSSH 服务
 apk add openssh curl sudo vim net-tools
 
 # 启用 sshd 服务
