@@ -48,6 +48,9 @@ sed -i '/^\s*- update_hostname/d;/^\s*- update_etc_hosts/d' /etc/cloud/cloud.cfg
 # 清除hosts文件内的无用字段
 sed -i '/^#/d' /etc/hosts
 
+# 解锁APT源
+sed -i '$a apt_preserve_sources_list: true' /etc/cloud/cloud.cfg
+
 # 重启cloud-init
 systemctl restart cloud-init
 
