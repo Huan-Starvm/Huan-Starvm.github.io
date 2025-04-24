@@ -18,9 +18,6 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security ma
 EOF
 
 # 更新软件包索引以及系统环境
-export DEBIAN_FRONTEND=noninteractive
-echo "openssh-server ssh/permit-root-login select Yes" | sudo debconf-set-selections
-echo "openssh-server ssh/password-authentication boolean true" | sudo debconf-set-selections
 apt-get update && apt-get full-upgrade -y
 
 # 清理无用软件包
