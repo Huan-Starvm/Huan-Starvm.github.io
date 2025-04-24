@@ -27,3 +27,7 @@ wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Debian12.
 ```bash
 wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Debian11.sh | bash
 ```
+#### Ubuntu 22.04系统(看清楚版本号，没有自动检测系统的功能)
+```bash
+wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Ubuntu22.sh | bash
+```
