@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# 更新软件包索引
+# 更改软件源
 cat > /etc/apt/sources.list.d/ubuntu.sources << EOF
 Types: deb
 URIs: http://mirrors.tuna.tsinghua.edu.cn/ubuntu
