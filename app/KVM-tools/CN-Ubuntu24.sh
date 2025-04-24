@@ -43,11 +43,8 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 # Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 EOF
 
-# 更新软件包索引以及系统环境
-apt-get update && apt-get full-upgrade -y
-
-# 清理无用软件包
-apt-get autoremove -y
+# 更新软件包索引
+apt-get update
 
 # 安装常用程序
 apt-get install wget net-tools bash sudo vim ifupdown -y
