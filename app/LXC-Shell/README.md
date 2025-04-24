@@ -8,15 +8,22 @@
 
 # 必要环境`wget`、`bash`
 
-# Debian\Ubuntu
+# 海外云容器
+
+## Debian\Ubuntu
 ```bash
 wget -qO- https://huan-starvm.github.io/app/LXC-Shell/Debian-Ubuntu.sh | bash
 ```
-# CentOS
+## CentOS
 ```bash
 wget -qO- https://huan-starvm.github.io/app/LXC-Shell/CentOS.sh | bash
 ```
-# Alpine
+## Alpine
 ```bash
 wget -qO- https://huan-starvm.github.io/app/LXC-Shell/Alpine.sh | bash
+```
+# 国内云容器
+## Debian12
+```bash
+wget -qO- https://huan-starvm.github.io/app/LXC-Shell/CN-Debian12.sh | bash
 ```
