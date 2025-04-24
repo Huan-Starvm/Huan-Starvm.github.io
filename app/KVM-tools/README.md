@@ -39,3 +39,7 @@ wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Ubuntu22.
 ```bash
 wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Ubuntu20.sh | bash
 ```
+#### CentOS 8 Stream系统(看清楚版本号，没有自动检测系统的功能)
+```bash
+curl -sSL https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-CentOS-8-Stream.sh | bash
+```
