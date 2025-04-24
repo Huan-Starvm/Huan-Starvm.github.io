@@ -38,7 +38,7 @@ yum install chrony -y
 sed -i 's/^pool 2.centos.pool.ntp.org iburst$/pool ntp1.aliyun.com iburst/; /pool ntp1.aliyun.com iburst/a pool ntp2.aliyun.com iburst\npool ntp3.aliyun.com iburst\npool ntp4.aliyun.com iburst\npool ntp5.aliyun.com iburst' /etc/chrony.conf
 
 # 重启chrony并开机自启
-systemctl restart chrony && systemctl enable chrony
+systemctl restart chronyd && systemctl enable chronyd
 
 # 输出消息
 echo -e "${Info}执行完毕"
