@@ -17,11 +17,8 @@ deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main c
 deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
 EOF
 
-# 更新软件包索引以及系统环境
-apt-get update && apt-get full-upgrade -y
-
-# 清理无用软件包
-apt-get autoremove -y
+# 更新软件包索引
+apt-get update
 
 # 安装常用程序
 apt-get install wget net-tools bash sudo vim -y
