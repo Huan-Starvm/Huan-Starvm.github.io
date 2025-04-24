@@ -43,3 +43,4 @@ wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Ubuntu20.
 ```bash
 curl -sSL https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-CentOS-8-Stream.sh | bash
 ```
+#### CentOS 7.6/7.9系统(看清楚版本号，没有自动检测系统的功能)
