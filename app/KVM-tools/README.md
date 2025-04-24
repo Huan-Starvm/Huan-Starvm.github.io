@@ -21,3 +21,7 @@ PS：由于github.io被国内部分运营商阻断，所以将国内脚本迁移
 ```bash
 wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Debian12.sh | bash
 ```
+#### Debian 11系统(看清楚版本号，没有自动检测系统的功能)
+```bash
+wget -qO- https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-Debian11.sh | bash
+```
