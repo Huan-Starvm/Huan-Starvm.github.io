@@ -17,7 +17,7 @@
 ## 注意事项：部分操作过程中可能需要输入回车，或者Y才能接着执行
 
 ## 如何使用
-### 国内云服务器
+### 国内IPv4云服务器
 PS：由于github.io被国内部分运营商阻断，所以将国内脚本迁移到了Gitee上，但是执行起来的内容是一样的
 #### Debian 12系统(看清楚版本号，没有自动检测系统的功能)
 ```bash
@@ -47,3 +47,5 @@ curl -sSL https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-CentOS-8-
 ```bash
 curl -sSL https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-CentOS-7.sh | bash
 ```
+
+### 国内IPv6云服务器
