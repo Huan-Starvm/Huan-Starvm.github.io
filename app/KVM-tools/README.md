@@ -49,3 +49,8 @@ curl -sSL https://gitee.com/starvm/storage/raw/master/app/KVM-tools/CN-CentOS-7.
 ```
 
 ### 国内IPv6云服务器
+PS：由于gitee不支持IPv6，而raw.githubusercontent.com在国内部分运营商无法访问，所以后续会优化这个问题
+#### Debian 12系统(看清楚版本号，没有自动检测系统的功能)
+```bash
+wget -qO- https://raw.githubusercontent.com/Huan-Starvm/Huan-Starvm.github.io/refs/heads/main/app/KVM-tools/CN-Debian12.sh | bash
+```
