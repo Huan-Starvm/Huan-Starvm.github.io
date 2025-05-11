@@ -54,3 +54,7 @@ PS：由于gitee不支持IPv6，而raw.githubusercontent.com在国内部分运�
 ```bash
 wget -qO- https://raw.githubusercontent.com/Huan-Starvm/Huan-Starvm.github.io/refs/heads/main/app/KVM-tools/CN-Debian12.sh | bash
 ```
+#### Debian 11系统(看清楚版本号，没有自动检测系统的功能)
+```bash
+wget -qO- https://raw.githubusercontent.com/Huan-Starvm/Huan-Starvm.github.io/refs/heads/main/app/KVM-tools/CN-Debian11.sh | bash
+```
