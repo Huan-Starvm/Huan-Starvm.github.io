@@ -60,5 +60,8 @@ sed -i 's/^pool 2.debian.pool.ntp.org iburst$/pool ntp1.aliyun.com iburst/; /poo
 # 重启chrony并开机自启
 systemctl restart chrony && systemctl enable chrony
 
+# 重启SSH服务
+systemctl restart sshd
+
 # 输出消息
 echo -e "${Info}执行完毕"
