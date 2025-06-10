@@ -38,7 +38,7 @@ fi
 # 配置部分
 #######################
 # GitHub 相关配置
-GH_DOWNLOAD_URL="${GH_PROXY}https://github.com/Huan-Starvm/alist/releases/download/v3.39.0"
+GH_DOWNLOAD_URL="${GH_PROXY}https://github.com/Huan-Starvm/alist/releases/download/v3.39.4"
 #######################
 
 # 颜色配置
@@ -198,11 +198,11 @@ INSTALL() {
   # 如果用户输入了代理地址，则使用代理拼接下载链接
   if [ -n "$proxy_input" ]; then
     GH_PROXY="$proxy_input"
-    GH_DOWNLOAD_URL="${GH_PROXY}https://github.com/Huan-Starvm/alist/releases/download/v3.39.0"
+    GH_DOWNLOAD_URL="${GH_PROXY}https://github.com/Huan-Starvm/alist/releases/download/v3.39.4"
     echo -e "${GREEN_COLOR}已使用代理地址: $GH_PROXY${RES}"
   else
     # 如果不需要代理，直接使用默认链接
-    GH_DOWNLOAD_URL="https://github.com/Huan-Starvm/alist/releases/download/v3.39.0"
+    GH_DOWNLOAD_URL="https://github.com/Huan-Starvm/alist/releases/download/v3.39.4"
     echo -e "${GREEN_COLOR}使用默认 GitHub 地址进行下载${RES}"
   fi
 
@@ -330,11 +330,11 @@ UPDATE() {
     # 如果用户输入了代理地址，则使用代理拼接下载链接
     if [ -n "$proxy_input" ]; then
         GH_PROXY="$proxy_input"
-        GH_DOWNLOAD_URL="${GH_PROXY}https://github.com/Huan-Starvm/alist/releases/download/v3.39.0"
+        GH_DOWNLOAD_URL="${GH_PROXY}https://github.com/Huan-Starvm/alist/releases/download/v3.39.4"
         echo -e "${GREEN_COLOR}已使用代理地址: $GH_PROXY${RES}"
     else
         # 如果不需要代理，直接使用默认链接
-        GH_DOWNLOAD_URL="https://github.com/Huan-Starvm/alist/releases/download/v3.39.0"
+        GH_DOWNLOAD_URL="https://github.com/Huan-Starvm/alist/releases/download/v3.39.4"
         echo -e "${GREEN_COLOR}使用默认 GitHub 地址进行下载${RES}"
     fi
 
