@@ -56,10 +56,13 @@ ip tuntap add mode tun dev $TUN_IF 2>/dev/null || true
 ip addr add 198.18.0.1/15 dev $TUN_IF || true
 ip link set $TUN_IF up
 
+echo "[*] 确认 $TUN_IF 设备为 UP ..."
+ip link set $TUN_IF up
+
 echo "[*] 设置默认路由走 $TUN_IF ..."
 OLD_GW=$(ip route | awk '/default/ {print $3; exit}')
 ip route del default || true
-ip route add default via 198.18.0.1 dev $TUN_IF metric 1
+ip route add default dev $TUN_IF metric 1
 ip route add default via $OLD_GW metric 10
 
 echo "[*] 启动 tun2socks，使用 SOCKS5 代理 $SOCKS_HOST:$SOCKS_PORT ..."
